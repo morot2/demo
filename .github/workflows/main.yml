@@ -2,7 +2,7 @@ name: Deploy Demo Server
 on:
   push:
     branches:
-      - master
+      - dev
 
 jobs:
   build:
