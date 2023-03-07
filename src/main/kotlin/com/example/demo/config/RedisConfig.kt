@@ -2,13 +2,14 @@ package com.example.demo.config
 
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.Bean
+import org.springframework.context.annotation.ComponentScan
 import org.springframework.context.annotation.Configuration
 import org.springframework.data.redis.connection.RedisClusterConfiguration
 import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory
-import org.springframework.data.redis.repository.configuration.EnableRedisRepositories
 
 @Configuration
-class RedisConfiguration {
+@ComponentScan(basePackages = ["com.example.demo.repository"])
+class RedisConfig {
 
     @Value("\${spring.redis.host}")
     lateinit var redisHost: String

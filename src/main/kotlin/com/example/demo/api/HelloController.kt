@@ -1,8 +1,7 @@
-package com.example.demo
+package com.example.demo.api
 
-import com.example.demo.config.repository.Vote
-import com.example.demo.config.repository.VoteRepository
-import org.springframework.context.annotation.ComponentScan
+import com.example.demo.repository.Vote
+import com.example.demo.repository.VoteRepository
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody

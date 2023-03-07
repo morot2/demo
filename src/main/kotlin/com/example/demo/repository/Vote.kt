@@ -1,4 +1,4 @@
-package com.example.demo.config.repository
+package com.example.demo.repository
 
 data class Vote(
         private val name: String,
