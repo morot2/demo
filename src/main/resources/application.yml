@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    redis:
+      host: gold-balance.p62fas.ng.0001.apn2.cache.amazonaws.com
+      port: 6379
