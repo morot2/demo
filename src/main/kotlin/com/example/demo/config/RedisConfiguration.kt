@@ -7,7 +7,6 @@ import org.springframework.data.redis.connection.RedisClusterConfiguration
 import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory
 import org.springframework.data.redis.repository.configuration.EnableRedisRepositories
 
-@EnableRedisRepositories(basePackages = ["com.example.demo"])
 @Configuration
 class RedisConfiguration {
 
